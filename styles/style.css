@@ -9,14 +9,26 @@ body{
     display: inline-block;
    border: 2px solid red;
    position: absolute;
-   left: 34px;
+   left: 36px;
    top: 20px;
+ }
+ .left img{
+  width: 70px;
+  border-radius: 100px; 
+     
+
+ }
+ .left div{
+    text-align: center;
+ }
+ .a1{
+    left: 2px;
  }
  
  .mid{
-    display: block;
+    display:block;
     width: 33%;
-    margin: 20px auto;
+    margin: 6px 500px;
     border: 2px solid red;
  } 
  .right{
@@ -29,9 +41,37 @@ body{
  .navbar{
     display: inline-block;
  }
- .navbar li, a{
+ .navbar li{
     display: inline-block;
+    font-size: 18px;
+}  
+ .navbar li, a{
     color: white;
     text-decoration: none;
-    font-size: 22px;
+    padding: 8px 5px;
+ }
+ 
+ .navbar li a:hover, .navbarli :active{
+    text-decoration: underline;
+    color: grey;
+    
+ }
+  .btn{
+  margin: 0px 1px;
+  color: white;
+  background-color: black;
+  top: 35px;
+   padding: 2px; 
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+
+ } 
+ .btn:hover{
+    /* background-color: rgb(116, 57, 57)
+    ; */
+    background-color: grey;
+
  }
