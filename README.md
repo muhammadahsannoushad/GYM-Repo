@@ -1,2 +1,2 @@
 # GYM-Repo
-I have create a GYM website 
+I have created a GYM website 
